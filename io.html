@@ -1,0 +1,94 @@
+<div class="row">
+            <div class="col-sm-12">
+                <ul class="list-unstyled  list-inline">
+                    <li class="item bg-primary list-inline-item" data-toggle="collapse" data-target="#home">  <i class="fas fa-home">Home</i></li>
+                    <li class="item bg-success list-inline-item" data-toggle="collapse" data-target="#service">Sercives</li>
+                    <li class="item bg-warning  list-inline-item" data-toggle="collapse" data-target="#contact">Contact</li>
+                </ul>
+            </div>
+            <div class="col-sm-12">
+
+            </div>
+        </div>
+
+
+        <div id="home" class="collapse show">
+            <h3>Home</h3>
+        </div>
+
+        <div id="service" class="collapse">
+            <h3>Services</h3>
+        </div>
+
+        <div id="contact" class="collapse">
+            <h3>Contact</h3>
+        </div>
+        
+       
+      
+     
+    
+   
+  
+
+
+
+
+
+
+
+
+
+
+ <!--body content-->
+
+    <!--<div class="container">
+   <a href="http://wwww.facebook.com"><i class="fab fa-facebook"></i></a>  
+    <a href="#"><i class="fab fa-google"></i></a>  
+      <a href="#"><i class="fab fa-github"></i></a>  
+       
+     
+   
+      <i class="fas fa-edit"></i>
+       <i class="fas fa-trash"></i>
+     
+   
+ </div>-->
+ 
+
+
+
+
+
+
+
+
+
+
+  <script>
+        $('.item').click(function() {
+            $('.collapse').collapse('hide');
+
+        });
+
+    </script>
+
+
+    <script>
+        $('.subbtn').click(function(e) {
+            $('#exampleModal').modal('toggle');
+        })
+
+    </script>
+
+
+    <script>
+        $(".btnsub").click(function() {
+            var email = $("#email").val();
+            var pwd = $("#pwd").val();
+            $("#email").val(' ');
+            $("#pwd").val();
+            $("#exampleModal").modal("toggle");
+        })
+
+    </script>
